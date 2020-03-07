@@ -46,8 +46,7 @@ def cover(path, info_album):
     urllib.request.urlretrieve(info_album['cover_xl'], path + '/cover.png')
 
 
-d = deezloader.Login('27352819b8c000e69540e550286804d46dd92b510a61cbbf5091786a52557baece3947df3302f6c5215352cc4fa20f2aa'
-                     '57b000954e170de40171839424ddf41fedae76c637d94a9d5d268f2ba28d0df1f5f44b888d5b5602da778b9a5fd3f37')
+d = deezloader.Login('ARL TOKER HERE')
 
 while True:
     query = input("Search for Album : ")
